@@ -1,0 +1,79 @@
+pro JGhtml {
+    height: 100%;
+    width: 100%;
+     font-family: "Mali", cursive;
+  }
+  
+  body{
+  background-color: #3c6e13;
+  background-image: url("foresta.jpg");
+  background-size: 100%;
+  background-attachment:fixed;
+  backdrop-filter: blur(2px);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3c6e13;
+    font-size: 80px;
+    font-family: "Ephesis", serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6b8534;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Quintessential", cursive;
+  }
+  
+  p {
+    text-align: center;
+    color: #b7be8e;
+    font-size: 25px;
+    font-family: "Marcellus", serif;
+    padding: 10px 30px 10px 30px
+  }
+  
+  a:link {
+    color:#6b8534;
+    text-decoration: underline;
+  }
+  a:visited{
+    color:#6b8534;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#b7be8e;
+    text-decoration: underline;
+    font-weight: bold
+  }
+  a:active{
+    color:#b7be8e;
+    text-decoration: underline;
+    font-weight: bolder
+  }
+  footer{
+    color:#b7be8e;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: "Marcellus", serif;
+  }
+  
+  figcaption{
+    color:#b7be8e;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: "Marcellus", serif;
+  }
+  
+  .bg {
+   background-color:#050a02;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: -2%;
+   margin-bottom: -2%;
+   padding: 10px 10px 10px 10px
+  }

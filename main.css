@@ -1,0 +1,126 @@
+pro JGhtml {
+  height: 100%;
+  width: 100%;
+   font-family: "Mali", cursive;
+}
+
+body{
+background-image: url("fundo site mt foda.png");
+background-size: 50%;
+background-attachment:fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #ad2020;
+  font-size: 80px;
+  font-family: "Ephesis", serif;
+}
+
+h2 {
+  text-align: center;
+  color: #ad2020;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Quintessential", cursive;
+}
+
+p {
+  text-align: center;
+  color: #f2e6e6;
+  font-size: 25px;
+  font-family: "Marcellus", serif;
+  padding: 20px 30px 20px 30px
+}
+
+a:link {
+  color:#ad2020;
+  text-decoration: underline;
+}
+a:visited{
+  color:#ad2020;
+  text-decoration: none;
+}
+a:hover{
+  color:#f2e6e6;
+  text-decoration: underline;
+  font-weight: bold
+}
+a:active{
+  color:#f2e6e6;
+  text-decoration: underline;
+  font-weight: bolder
+}
+footer{
+  color:#f2e6e6;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Marcellus", serif;
+}
+
+.bg {
+ background-color:#190000;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: -2%;
+ margin-bottom: -2%;
+ padding: 10px 10px 10px 10px
+}
+
+.images {
+  width: 700px;
+  border: 10px solid #f2e6e6; 
+  border-radius: 5px; 
+  display: block; 
+  margin-right: auto; 
+  margin-left: auto;
+  box-shadow: 5px 5px #560909;
+}
+
+.linkado{
+  height: 500px;
+  border: 10px solid #f2e6e6; 
+  border-radius: 5px; 
+  display: block; 
+  margin-right: auto; 
+  margin-left: auto;
+  margin-bottom: 0px;
+  box-shadow: 5px 5px #560909;
+}
+
+.textofigura{
+  text-align: center;
+  color: #f2e6e6;
+  font-size: 25px;
+  font-family: "Marcellus", serif;
+  padding: 0px 0px 0px 0px;
+  margin-top:5px;
+}
+
+.butao{
+  background-color: #ad2020;
+  color:#f2e6e6;
+  padding: 20px;
+  font-family: "Quintessential";
+  font-size: 40px;
+}
+
+.butao:hover, .butao:focus{
+  background-color:#560909;
+  color:#ad2020
+}
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f2e6e6;
+  overflow: auto;
+  box-shadow: ;
+  z-index: 1;
+}

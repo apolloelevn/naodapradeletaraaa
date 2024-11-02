@@ -1,0 +1,80 @@
+pro JGhtml {
+    height: 100%;
+    width: 100%;
+     font-family: "Mali", cursive;
+  }
+  
+  body{
+  background-color: #596669;
+  background-image: url("cidade.jpg");
+  background-position: top right;
+  background-size: 100%;
+  background-attachment:fixed;
+  backdrop-filter: blur(2px);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #596669;
+    font-size: 80px;
+    font-family: "Ephesis", serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #827c79;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Quintessential", cursive;
+  }
+  
+  p {
+    text-align: center;
+    color: #a5b1b9;
+    font-size: 25px;
+    font-family: "Marcellus", serif;
+    padding: 10px 30px 10px 30px
+  }
+  
+  a:link {
+    color:#827c79;
+    text-decoration: underline;
+  }
+  a:visited{
+    color:#827c79;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#a5b1b9;
+    text-decoration: underline;
+    font-weight: bold
+  }
+  a:active{
+    color:#a5b1b9;
+    text-decoration: underline;
+    font-weight: bolder
+  }
+  footer{
+    color:#a5b1b9;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: "Marcellus", serif;
+  }
+  
+  figcaption{
+    color:#a5b1b9;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: "Marcellus", serif;
+  }
+  
+  .bg {
+   background-color:#17262f;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: -2%;
+   margin-bottom: -2%;
+   padding: 10px 10px 10px 10px
+  }
